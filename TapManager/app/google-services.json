@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "880664307712",
+    "firebase_url": "https://tapmanager-24c5a.firebaseio.com",
+    "project_id": "tapmanager-24c5a",
+    "storage_bucket": "tapmanager-24c5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880664307712:android:6bc2c22f0a034b49",
+        "android_client_info": {
+          "package_name": "com.example.t_gamer.tapmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880664307712-da24dgjjuoiqabcde7s92208fdmfdluv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.t_gamer.tapmanager",
+            "certificate_hash": "a96022d5ac3b6e6ebea112d6b94cf7eab080394c"
+          }
+        },
+        {
+          "client_id": "880664307712-jjvtm61b1bhr88ssshu2iqc26deviubu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtaIiIY1aoXpQyb7XOASngcYTC8-dtRZw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880664307712-jjvtm61b1bhr88ssshu2iqc26deviubu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880664307712:android:71516d8c0f52020c",
+        "android_client_info": {
+          "package_name": "com.projeto.tapmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880664307712-jjvtm61b1bhr88ssshu2iqc26deviubu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtaIiIY1aoXpQyb7XOASngcYTC8-dtRZw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
