@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">TapManager</string>
     <string name="title_activity_login_cadastro">LoginCadastroActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_home1">Home1Activity</string>
 </resources>

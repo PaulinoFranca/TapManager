@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,12 +17,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginCadastroActivity"
+            android:name=".Activity.LoginCadastroActivity"
             android:label="@string/title_activity_login_cadastro"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".CadastroActivity"></activity>
+        <activity android:name=".Activity.HomeActivity" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.CadastroActivity" />
+        <activity
+            android:name=".Activity.Home1Activity"
+            android:label="@string/title_activity_home1"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

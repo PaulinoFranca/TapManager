@@ -1,9 +1,12 @@
-package com.example.t_gamer.tapmanager;
+package com.example.t_gamer.tapmanager.Activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Handler;
 import android.os.Bundle;
+
+import com.example.t_gamer.tapmanager.Activity.LoginCadastroActivity;
+import com.example.t_gamer.tapmanager.R;
 
 public class MainActivity extends AppCompatActivity implements Runnable {
 
