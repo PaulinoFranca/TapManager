@@ -6,9 +6,6 @@ public class Usuarios {
     private String email;
     private String nome;
     private String senha;
-    private String cargo;
-    private String telefone;
-    private String empresa;
 
     public Usuarios() {
     }
@@ -45,27 +42,4 @@ public class Usuarios {
         this.senha = senha;
     }
 
-    public String getCargo() {
-        return cargo;
-    }
-
-    public void setCargo(String cargo) {
-        this.cargo = cargo;
-    }
-
-    public String getTelefone() {
-        return telefone;
-    }
-
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
-    }
-
-    public String getEmpresa() {
-        return empresa;
-    }
-
-    public void setEmpresa(String empresa) {
-        this.empresa = empresa;
-    }
 }

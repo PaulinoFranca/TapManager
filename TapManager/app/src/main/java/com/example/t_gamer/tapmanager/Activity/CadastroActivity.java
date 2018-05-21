@@ -1,6 +1,7 @@
 package com.example.t_gamer.tapmanager.Activity;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -24,8 +25,6 @@ public class CadastroActivity extends Activity implements View.OnClickListener {
     private EditText etEmail;
     private EditText etSenha;
     private EditText etConfirmaSenha;
-    private EditText etEmpresa;
-    private EditText etCargo;
     private Button btnCadastra;
     private FirebaseAuth mAuth;
     private Usuarios usuarios;
@@ -42,8 +41,6 @@ public class CadastroActivity extends Activity implements View.OnClickListener {
         etSenha = findViewById(R.id.etSenha);
         etConfirmaSenha = findViewById(R.id.etConfirmaSenha);
 
-        etEmpresa = findViewById(R.id.etEmpresa);
-        etCargo = findViewById(R.id.etCargo);
         btnCadastra = findViewById(R.id.btnCadastra);
 
         btnCadastra.setOnClickListener(this);
@@ -62,12 +59,8 @@ public class CadastroActivity extends Activity implements View.OnClickListener {
                     usuarios.setEmail(etEmail.getText().toString());
                     usuarios.setNome(etNome.getText().toString());
                     usuarios.setSenha(etSenha.getText().toString());
-                    usuarios.setEmpresa(etEmpresa.getText().toString());
-                    usuarios.setCargo(etCargo.getText().toString());
 
                     CadastraUsuario();
-
-
 
                 }else {
                     Toast.makeText(CadastroActivity.this,"As senhas não estão iguais!",Toast.LENGTH_SHORT).show();
@@ -92,6 +85,10 @@ public class CadastroActivity extends Activity implements View.OnClickListener {
                     UserProfileChangeRequest profileChangeRequest = new UserProfileChangeRequest.Builder().setDisplayName(nome).build();
                     user.updateProfile(profileChangeRequest);
                     Toast.makeText(CadastroActivity.this,"Cadastro concluído!",Toast.LENGTH_SHORT).show();
+
+                    Intent telaLogin = new Intent(getApplicationContext(),LoginActivity.class);
+                    startActivity(telaLogin);
+                    finish();
 
                 }else {
                     Toast.makeText(CadastroActivity.this,"Cadastro nao teve exito!",Toast.LENGTH_SHORT).show();
